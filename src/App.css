@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+@font-face {
+    font-family: 'Digital';
+    src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+    src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix') format('embedded-opentype'),
+        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2') format('woff2'),
+        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff') format('woff'),
+        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf') format('truetype'),
+        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7') format('svg');
+}
+
+/* body */
+body {
+    cursor: default;
+    color: #fff;
+    background: #c2c2d6;
+}
+
+/* container */
+.container {
+    border: 2px solid #47476b;
+    padding: 5px;
+    background: black;
+    width: 340px;
+    position: relative;
+    height: 420px;
+    margin-top: 7%;
+}
+
+/* display */
+.cur-disp,
+#display1 {
+    font-family: 'digital', sans-serif;
+    text-align: right;
+}
+
+#display1 {
+    color: orange;
+    font-size: large;
+}
+
+.cur-disp {
+    font-size: xx-large;
+}
+
+/* buttons */
+#add,
+#divide,
+#subtract,
+#multiply {
+    background-color: #666666;
+    border-radius: 0;
+    width: 80px;
+    height: 65px;
+}
+
+/*I had to use uniqe ids for each one coz
+when I put extra class to the buttons 
+the functionalities have changed of bootstrap */
+
+#seven,
+#eight,
+#nine,
+#four,
+#five,
+#six,
+#one,
+#two,
+#three,
+#zero,
+#decimal {
+    background-color: #4D4D4D;
+    border-radius: 0;
+    width: 80px;
+    height: 65px;
+}
+
+#zero {
+    width: 161px !important;
+}
+
+#clear {
+    background-color: #AC3939;
+    border-radius: 0;
+    width: 161px;
+    height: 65px;
+}
+
+#equals {
+    background-color: #004466;
+    border-radius: 0;
+    width: 80px;
+    height: 131px;
+    margin-top: -66px;
+}
+
+button {
+    margin: 0.5px;
+}
