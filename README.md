@@ -1,7 +1,7 @@
 # Calculator
 ### project is build for purpose of earn FreeCodeCamp certificate </br>
 ### and it has passed from all tests </br>
-<sub>but you have to try several times maybe first time it will show 15 tests passed but 2nd or 3rd time will pass</sub>
+<sub>but you have to try several times maybe first time it will show 15 tests passed but 2nd or 3rd time will pass</sub> </br>
 *if you would like to check* </br>
 *you can click menu and choose project name then test* </br>
 **link for website** --> https://caclulator-12345.netlify.app/ </br>
