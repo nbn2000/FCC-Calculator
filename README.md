@@ -1,4 +1,4 @@
-# Calculator
+# React Calculator
 ### project is build for purpose of earn FreeCodeCamp certificate </br>
 ### and it has passed from all tests </br>
 <sub>but you have to try several times maybe first time it will show 15 tests passed but 2nd or 3rd time will pass</sub> </br>
